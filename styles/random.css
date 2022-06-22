@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600&family=Open+Sans:wght@600;800&family=Roboto:wght@500&display=swap');
+
+
+.random-title{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 36px;
+    display: flex;
+    margin: 0;
+    color: rgb(6, 40, 61);
+}
+
+.random-images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.image-container{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: solid 4px rgb(22, 114, 253);
+}
+
+.image-subtitles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.image-subtitle{
+    width: 200px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(6, 40, 61);
+    text-align: center;
+}
+
+.random-quote{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    padding-top: 70px;
+    padding-left: 220px;
+    padding-right: 220px;
+    margin: 0;
+}
+
+.random-quote-author{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    padding-left: 220px;
+    padding-right: 280px;
+    margin-top: 0;
+    text-align: end;
+    margin: 0;
+}
